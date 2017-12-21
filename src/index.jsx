@@ -1,12 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import App from "./components/App"
 
 ReactDOM.render(
-    <div>
-        <h1>Help Queue</h1>
-        <h3>MC5</h3>
-        <h3>Thato and Haley</h3>
-        <p><em>Firebase won't save record</em></p>
-    </div>,
+    <App/>
+    ,
     document.getElementById('react-app-root')
 )
